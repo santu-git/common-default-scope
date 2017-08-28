@@ -1,4 +1,4 @@
-module Limit
+module DateLimit
   def self.included(target)
     puts "included into #{target}"
     target.class_eval do

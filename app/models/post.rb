@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  include Limit
+  include DateLimit
   attr_accessible :description, :title
   default_scope order('title DESC')
 
